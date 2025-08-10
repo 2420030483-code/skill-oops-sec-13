@@ -1,0 +1,13 @@
+public class Session2 {
+    public static void main(String[] args) {
+        String str = "Hello";
+        String newStr = str.concat(" World");
+
+        System.out.println(str);
+        System.out.println(newStr);
+        System.out.println("Length: " + newStr.length());
+        System.out.println("Uppercase: " + newStr.toUpperCase());
+        System.out.println("Substring: " + newStr.substring(0, 5));
+        System.out.println("Contains 'World': " + newStr.contains("World"));
+    }
+}
