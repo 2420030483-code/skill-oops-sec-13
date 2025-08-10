@@ -1,0 +1,22 @@
+// type conversion 
+public class Session1 {
+    public static void main(String[] args) {
+        int a = 10;
+        double b = a;
+        double x = 9.78;
+        int y = (int) x;
+
+        Integer intObj = Integer.valueOf(a);
+        Double doubleObj = Double.valueOf(b);
+
+        int num = intObj.intValue();
+        double dbl = doubleObj.doubleValue();
+
+        System.out.println("Int to Double: " + b);
+        System.out.println("Double to Int: " + y);
+        System.out.println("Wrapper Int: " + intObj);
+        System.out.println("Wrapper Double: " + doubleObj);
+        System.out.println("Unboxed Int: " + num);
+        System.out.println("Unboxed Double: " + dbl);
+    }
+}
